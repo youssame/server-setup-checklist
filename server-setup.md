@@ -1,3 +1,4 @@
+
 # Server Setup
 
 `ssh root@YOUR_IP OR ssh -i ~/.ssh/fsfe root@YOUR_IP`
