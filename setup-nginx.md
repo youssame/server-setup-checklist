@@ -7,7 +7,7 @@
 `sudo service nginx start`
 
 - Show nginx configuration
-`$ `sudo less /etc/nginx/sites-available/default`
+`sudo less /etc/nginx/sites-available/default`
 
 - Create and edit index.html
 `sudo vi /var/www/html/index.html`
