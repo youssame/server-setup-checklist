@@ -47,5 +47,14 @@ UseKeyChain yes
 `exit`
 `exit`
 
+- Change file permissions
+`chmod 644 ~/.ssh/authorized_keys`
+
+- Disable root login
+`sudo vi /etc/ssh/sshd_config`
+
+- Restart ssh daemon
+`sudo service sshd restart
+
 - Login with new user
 `ssh $USERNAME@IP_ADDRESS`
